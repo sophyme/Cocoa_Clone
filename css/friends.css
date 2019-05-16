@@ -1,0 +1,12 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friends__title-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8b8a8b;
+  font-weight: 600;
+}

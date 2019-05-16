@@ -1,9 +1,14 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,500,600,700,800");
 @import "status-bar.css";
+@import "header.css";
 
 body {
   background-color: white;
   padding: 10px 20px;
   color: #020202;
+  font-family: "Fira Sans", sans-serif;
+}
+a {
+  color: inherit;
 }

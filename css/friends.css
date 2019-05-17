@@ -8,5 +8,11 @@
   justify-content: space-between;
   align-items: center;
   color: #8b8a8b;
-  font-weight: 600;
+}
+.friend .friend__avatar {
+  width: 50px;
+  border-radius: 37%;
+}
+.friend__avatar.g-avatar {
+  width: 50px;
 }

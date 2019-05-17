@@ -11,6 +11,7 @@
   color: #8b8a8b;
   padding-bottom: 12px;
 }
+/* ------------ Friend avatar ------------ */
 .friend .friend__avatar {
   width: 50px;
   border-radius: 35%;
@@ -28,6 +29,7 @@
 .friend .friend__avatar {
   margin-right: 15px;
 }
+/* ------------ Friend text ------------ */
 .friend__content .friend__name {
   display: block;
   margin-bottom: 5px;
@@ -42,6 +44,7 @@
 .friend__bottom .friend__bottom-text {
   font-size: 17px;
 }
+/* ------------ friend section title ------------ */
 .friends__plus {
   margin-bottom: 10px;
   padding-top: 10px;
@@ -57,4 +60,15 @@
 .friends__plus-find {
   padding-top: 12px;
   border-top: 1px solid #f7f4f7;
+}
+/* ------------ friend second column style ------------ */
+.friend .friend__now-listening {
+  height: 28px;
+  padding: 7px 17px;
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #86d84f;
+}
+.friend .friend__now-listening i {
+  color: #86d84f;
 }

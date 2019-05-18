@@ -1,0 +1,20 @@
+/*  settings header */
+.settings .settings__main-header {
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+.settings .settings__main-header,
+.settings__list .settings__setting {
+  padding: 10px 0;
+}
+.settings__setting .settings__icon {
+  margin-right: 10px;
+  color: #6d6b6d;
+}
+/*  settings section */
+.settings__sections {
+  margin-top: 10px;
+}
+.settings__list .last {
+  padding-top: 40px;
+}

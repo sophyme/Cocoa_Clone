@@ -1,14 +1,20 @@
 /*      more header         */
-.more__btn-list {
+.more__btn-list,
+.more__suggestions-list {
   display: flex;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: space-around;
+  width: 76%;
+  margin-bottom: 10px;
 }
-.more__btn-list .more__btn {
+.more__btn-list .more__btn,
+.more__suggestion.suggestion {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 20px;
+}
+.more__btn {
+  cursor: pointer;
 }
 .more__btn i {
   font-size: 25px;
@@ -20,4 +26,28 @@
   color: #adacae;
 }
 
-/*          more section-suggestions         */
+/*          more section-suggestions-title       */
+.more__suggestions {
+  border-top: 1px solid #f7f4f7;
+  cursor: pointer;
+}
+.more__suggestions h5 {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #4b4a4c;
+}
+
+/*          more section-suggestions-icon       */
+.suggestion .suggestions__icon {
+  background-color: #fce006;
+  padding: 10px;
+  border-radius: 11%;
+  color: white;
+}
+.suggestions__icon i {
+  font-size: 27px;
+}
+.more__suggestion .suggestion__title {
+  margin-top: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,27 @@
+.find .find__header-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 23px 10px;
+}
+.find .find__header-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find__header-btn .header-btn__icon {
+  font-size: 27px;
+}
+.find__header-btn .header-btn__title {
+  margin-top: 15px;
+  font-size: 15px;
+  opacity: 0.7;
+}
+.friend__column .friend__add-btn {
+  background-color: #f4f3f4;
+  width: 48px;
+  height: 38px;
+  border-radius: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

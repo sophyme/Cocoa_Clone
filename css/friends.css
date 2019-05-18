@@ -71,4 +71,6 @@
 }
 .friend .friend__now-listening i {
   color: #86d84f;
+  font-size: 10px;
+  margin-left: 3px;
 }

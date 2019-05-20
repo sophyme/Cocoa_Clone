@@ -1,3 +1,13 @@
+/* status bar &header sticky */
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
 /*  chat wirte  */
 .chat__write {
   position: fixed;
@@ -35,15 +45,14 @@
 
 /*  main chat  */
 .chats-body {
-  padding: 0;
+  padding: 0px;
+  padding-top: 100px; /* bottom도 100px을 설정했을 땐, 왜 안먹히는지? */
+  background-image: url("../images/chatbg.png");
+  min-height: 100vh;
 }
 .chats-body .header,
 .chats-body .status-bar {
   padding: 0px 20px;
-}
-.chat {
-  background-image: url("../images/chatbg.png");
-  min-height: 100vh;
 }
 .chat .chat__messages {
   padding-top: 1px solid #f7f7f7;
@@ -91,8 +100,7 @@
 }
 .message .message__bubble,
 .sent-message .message__bubble {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   padding: 10px 20px;
   border-radius: 20px;
 }

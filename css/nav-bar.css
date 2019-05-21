@@ -31,3 +31,19 @@
   align-items: center;
   border-radius: 50%;
 }
+
+/*  nav bar animation */
+@keyframes showNavBar {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(50px);
+  animation: showNavBar 0.8s ease-out forwards;
+  animation-delay: 0.5s;
+}
